@@ -1,0 +1,17 @@
+{
+  "name": "orglib",
+  "version": "1.0.0",
+  "description": "provides objects to represent, parsers to convert, and writers to persist OrgMode files and content, http://orgmode.org/.",
+  "main": "orglib.js",
+  "scripts": {
+    "test": "istanbul cover --include-all-sources -x '**/spec/**' jasmine-node spec",
+    "unit": "jasmine-node spec"
+  },
+  "author": "Jason Church <jason.church@edeveloper.ca>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.4.x",
+    "lodash": "4.14.x",
+    "moment": "2.14.x"
+  }
+}

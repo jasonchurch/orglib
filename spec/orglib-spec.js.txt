@@ -1,0 +1,19 @@
+var orglib = require("../orglib.js");
+var fs = require("fs");
+var _ = require("lodash");
+
+describe("orglib", function() {
+  describe("parseOrgContents", function() {
+    var orgContents = fs.readFileSync("./spec/parseOrgContentsTest1.org");
+    it("Should return a list of headlines", function() {
+      var headlines = _.map(orglib.parseOrgContents(orgContents), function(headline) {
+	return headline.headlineText;
+      });
+      expect(headlines)
+	.toEqual([
+	  "A Level 1 Heading"
+	]);
+    });
+  });
+
+});

@@ -1,0 +1,10 @@
+
+
+** Project Management
+*** Questions
+**** How do we handle reading if we use org-mode-parser which only handles reading and parsing?
+     We will probably have to try just writing out the orgnode list
+     from the parse and recreate the whole file.  Realistically we'd
+     have to recreate parts of the file anyways because some entries
+     would be entered mid file, but still I'm concerned about the loss
+     of data risk if the parser doesn't read in everything properly. 

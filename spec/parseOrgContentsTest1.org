@@ -1,0 +1,5 @@
+* NEXT [#A] A Level 1 Heading
+some text belonging to the level 1
+
+** DONE A Level 2 Heading					       :tag2:
+some text belonging to the level 2
