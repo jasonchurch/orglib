@@ -1,6 +1,6 @@
 {
   "name": "orglib",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "provides objects to represent, parsers to convert, and writers to persist OrgMode files and content, http://orgmode.org/.",
   "main": "orglib.js",
   "scripts": {
@@ -13,5 +13,9 @@
     "bluebird": "3.4.x",
     "lodash": "4.14.x",
     "moment": "2.14.x"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "mock-fs": "^3.11.0"
   }
 }
